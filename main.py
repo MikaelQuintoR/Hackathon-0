@@ -85,6 +85,22 @@ def Resta( operacion :str):
     n2=int(n)
     return n1-n2
 
+def calcular(operacion: str):
+    try:
+        # Evalúa la expresión, manejando correctamente la prioridad de paréntesis y operaciones.
+        resultado = eval(operacion)
+        return resultado
+    except Exception as e:
+        return f"Error en la operación: {e}"
+
+op = input("Ingrese la operación: ")
+
+if "c" in op:
+    op = input("Ingrese la operación: ")
+else:
+    print(f"Resultado: {calcular(op)}")
+
+
 def multiplicacion(operacion :str):
     global n1
     n=""
