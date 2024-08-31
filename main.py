@@ -9,8 +9,7 @@ def Suma( operacion :str):
             n=""
     n2=int(n)
     return n1+n2
-op=input(str("Ingrese la operacion"))
-print(Suma(op))
+
 
 def Resta( operacion :str):
     global n1
@@ -23,8 +22,6 @@ def Resta( operacion :str):
             n=""
     n2=int(n)
     return n1-n2
-op=input(str("Ingrese la operacion"))
-print(Resta(op))
 
 def multiplicacion(operacion :str):
     global n1
@@ -37,8 +34,7 @@ def multiplicacion(operacion :str):
             n=""
     n2=int(n)
     return n1n2
-op=input(str("Ingrese la operación: "))
-print(multiplicacion(op))
+
 
 def division( operacion :str):
     global n1
@@ -51,16 +47,15 @@ def division( operacion :str):
             n=""
     n2=int(n)
     return n1/n2
-op=input(str("Ingrese la operacion"))
 
+op = input(str("Ingrese la operacion"))
 
-if:
-    "c" in op:
+if"c" in op:
     op = input(str("Ingrese la operacion"))
 elif "+" in op:
-    print(suma(op))
+    print(Suma(op))
 elif "-" in op:
-    print(resta(op))
+    print(Resta(op))
 elif "/" in op:
     print(division(op))
 elif "*" in op:
