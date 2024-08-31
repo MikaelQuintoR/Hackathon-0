@@ -1,5 +1,8 @@
 # Hackathon-0
 
+André Valle 
 
-André Valle
-Tengo 19 años, estudio CS y mi color faovrito es el rojo
+Me llamo André, tengo 19 años y mi color favorito es el rojo:)
+
+
+
