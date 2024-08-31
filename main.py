@@ -26,6 +26,20 @@ def Resta( operacion :str):
 op=input(str("Ingrese la operacion"))
 print(Resta(op))
 
+def multiplicacion(operacion :str):
+    global n1
+    n=""
+    for i in operacion:
+        if i!="":
+            n+=i
+        else :
+            n1=int(n)
+            n=""
+    n2=int(n)
+    return n1n2
+op=input(str("Ingrese la operación: "))
+print(multiplicacion(op))
+
 def division( operacion :str):
     global n1
     n=""
